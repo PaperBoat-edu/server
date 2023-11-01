@@ -12,7 +12,7 @@ mongoose.connect('mongodb://mongodb:27017/paperboat-edu', { useNewUrlParser: tru
 });;
 
 app.get('/', (req, res) => {
-  res.send('Hello, server is running!!');
+  res.send('Hello, server is running!!!');
 });
 
 app.listen(port, () => {
